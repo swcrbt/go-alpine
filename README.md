@@ -1,3 +1,3 @@
 # go-alpine
 
-极简golang环境
+golang环境
