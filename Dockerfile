@@ -2,8 +2,8 @@ FROM alpine:latest
 MAINTAINER swcrbt@test.com
 
 #更换源
-#RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
-RUN apk add gcc \
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories \
+    && apk add gcc \
     && apk add g++ \
     && apk add musl-dev \
     && apk add make \
