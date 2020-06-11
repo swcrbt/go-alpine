@@ -12,6 +12,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
     && apk add tzdata \
     && apk add bash \
     && apk add curl \
+    && apk add git \
     && apk add go
 
 # 时区处理
